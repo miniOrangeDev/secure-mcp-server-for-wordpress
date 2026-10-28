@@ -1,0 +1,44 @@
+# WordPress MCP Server
+
+> A free WordPress plugin by miniOrange that turns a WordPress site into a secure MCP (Model Context Protocol) server. AI assistants such as Claude, ChatGPT, Cursor and Gemini can then read and manage the site through chat, using 464 tools, within role-based permissions the site owner sets. Every action is checked against WordPress capabilities and logged. No coding is needed.
+
+MCP endpoint (same for every site): https://gateway.miniorange.ai/v2/mcp
+Transport: Streamable HTTP. Authentication: OAuth 2.1 with PKCE. During sign-in, the user enters their WordPress site address on the miniOrange Gateway page, then logs in to their own WordPress site and clicks "Allow access".
+
+Before connecting, the site owner must: install the plugin from WordPress.org (slug: miniorange-secure-mcp-server), create and enable an agent in Secure MCP Server -> AI Agents, and grant tools to their user role. The site must be public HTTPS (not localhost) and run WordPress 6.9+ and PHP 7.4+.
+
+The tools cover posts, pages, block-by-block editing, media, comments, menus, widgets, users, settings, maintenance, safe theme editing (draft, preview, automatic rollback), WooCommerce, Yoast SEO, Rank Math, Advanced Custom Fields, Elementor, Kadence Blocks, Divi (Pro plan), Contact Form 7, WPForms, Gravity Forms and Fluent Forms. Governed REST API access lets the AI call other plugins' REST routes under per-role permissions.
+
+## Docs
+
+- [README](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/README.md): overview, quick start, features and plans
+- [Getting started](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/getting-started.md): install, create an agent, connect
+- [Connect Claude](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-claude.md)
+- [Connect ChatGPT](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-chatgpt.md)
+- [Connect Cursor](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-cursor.md)
+- [Connect Grok](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-grok.md)
+- [Connect Codex](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-codex.md)
+- [Connect Windsurf](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-windsurf.md)
+- [Connect Antigravity](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-antigravity.md)
+- [Connect other AI apps](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/connect-other-ai-apps.md): Gemini CLI, VS Code, Claude Code, any MCP client
+- [What your AI can do](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/what-your-ai-can-do.md): all tool groups and example prompts
+- [Security and control](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/security-and-control.md)
+- [Troubleshooting](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/troubleshooting.md)
+- [FAQ](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/faq.md)
+
+## Machine-readable
+
+- [mcp-server-info.json](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/mcp-server-info.json): full structured description (endpoint, auth, clients, tools, security, plans, links)
+- [server.json](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/server.json): MCP Registry listing
+
+## Links
+
+- [WordPress.org plugin page](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
+- [Official website](https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress)
+- [Official documentation](https://plugins.miniorange.com/mcp-server-documentation)
+- [Support forum](https://wordpress.org/support/plugin/miniorange-secure-mcp-server/)
+
+## Optional
+
+- [Changelog](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/CHANGELOG.md)
+- [Glossary](https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress/blob/main/docs/glossary.md)

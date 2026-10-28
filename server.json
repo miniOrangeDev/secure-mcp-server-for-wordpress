@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.miniorange/secure-mcp-server-for-wordpress",
+  "title": "Secure WordPress MCP Server",
+  "description": "Connect Claude, ChatGPT and other AI apps to WordPress with role-based permissions and audit logs.",
+  "version": "1.5.4",
+  "websiteUrl": "https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress",
+  "repository": {
+    "url": "https://github.com/miniOrangeDev/secure-mcp-server-for-wordpress",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.miniorange.ai/v2/mcp"
+    }
+  ]
+}
