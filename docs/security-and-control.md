@@ -53,7 +53,9 @@ Sign-in uses **OAuth 2.1 with PKCE**, the same kind of secure sign-in behind "Si
   - You can **preview** the draft, and the site is tested before it goes live.
   - Publishing takes an **automatic backup**. If the site fails, **everything rolls back automatically**.
   - You can undo any publish later with one click.
+  - Logo, site icon, Additional CSS and theme settings wait in the same draft, so you preview them before anything goes live.
 - **Block-by-block editing.** The AI can change a single heading or button and leave the rest of the page exactly as it was.
+- **Image edits keep the original.** Cropping, rotating and resizing can create a new image, or change one in place with the original kept so you can restore it.
 
 ## Everything is recorded
 
@@ -67,6 +69,9 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 - **Unusual-behaviour detection:** flags activity that doesn't look normal.
 - **Rate limits:** stop any one AI app from making too many requests (enforced by the miniOrange Gateway).
 - **Dangerous routes are always blocked:** plugin and theme installs and activations can never be granted through the REST API.
+- **SVG files are cleaned:** on sites that accept SVG uploads, SVGs added by the AI have scripts, outside links and CSS that could load files from other sites removed. A drawing built to freeze the browser of whoever opens it is refused.
+- **Upload links are personal:** when the AI gives you a link to upload a file, it works only for your account, behind your normal sign-in.
+- **Flags risky grants:** the role grid in **AI Agents** only offers abilities a role can actually use, and flags existing grants a role cannot use so you can turn them off.
 
 ## Business plan extras
 

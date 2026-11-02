@@ -4,7 +4,7 @@
 
 [![WordPress plugin version](https://img.shields.io/wordpress/plugin/v/miniorange-secure-mcp-server?label=WordPress.org)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
 [![Requires WordPress](https://img.shields.io/badge/WordPress-6.9%2B-21759b)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
-[![Tools](https://img.shields.io/badge/AI%20tools-464-6c47ff)](docs/what-your-ai-can-do.md)
+[![Tools](https://img.shields.io/badge/AI%20tools-479-6c47ff)](docs/what-your-ai-can-do.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 [Install free from WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) ·
@@ -73,7 +73,7 @@ Read more: [Security and control](docs/security-and-control.md)
 | **Codex** | [Connect Codex →](docs/connect-codex.md) |
 | **Windsurf** | [Connect Windsurf →](docs/connect-windsurf.md) |
 | **Antigravity** | [Connect Antigravity →](docs/connect-antigravity.md) |
-| **Gemini CLI, VS Code, Claude Code, others** | [Connect another AI app →](docs/connect-other-ai-apps.md) |
+| **Gemini, Perplexity, Gemini CLI, VS Code, Claude Code, others** | [Connect another AI app →](docs/connect-other-ai-apps.md) |
 
 The full walkthrough is in [Getting started](docs/getting-started.md).
 
@@ -89,18 +89,18 @@ It is the same for every site. The app will then ask for your site's address, an
 
 ## What your AI can do
 
-**464 tools** covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
+**479 tools** covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
 
 | Area | Examples |
 |---|---|
 | **Posts and pages** | Write, edit, schedule, duplicate, set featured images, restore old revisions |
 | **Block editor** | Change one heading or button and leave the rest of the page exactly as it was |
-| **Media** | Upload images, set alt text and captions |
+| **Media** | Upload images, set alt text and captions, crop, rotate and resize images |
 | **Comments** | Moderate, reply, mark spam |
 | **Menus and widgets** | Add pages to menus, reorder items, edit sidebars and footers |
 | **Users** | Create users, change roles, send password reset links |
 | **Site settings and maintenance** | Site title, homepage, plugin updates, clear caches, read the error log |
-| **Theme editing** | Change templates, styles and theme files, with a preview before anything goes live |
+| **Theme editing** | Change templates, styles, theme files, logo, site icon and custom CSS, with a preview before anything goes live |
 | **WooCommerce** | Products, prices, orders, refunds, customers, coupons, sales reports |
 | **SEO (Yoast and Rank Math)** | SEO titles, meta descriptions, focus keywords, schema, social sharing |
 | **Page builders** | Elementor, Kadence Blocks, and Divi 4 and 5 (Pro) |
@@ -114,7 +114,7 @@ See the full list and more example prompts: [What your AI can do](docs/what-your
 
 | Feature | Free | Pro | Business |
 |---|:---:|:---:|:---:|
-| 464 AI tools, Agent Registry, role permissions | ✅ | ✅ | ✅ |
+| 479 AI tools, Agent Registry, role permissions | ✅ | ✅ | ✅ |
 | Secure sign-in, activity log, troubleshooting | ✅ | ✅ | ✅ |
 | Governed REST API access to other plugins | ✅ | ✅ | ✅ |
 | Divi 4 and Divi 5 page-builder support | | ✅ | ✅ |

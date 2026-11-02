@@ -8,6 +8,36 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.5
+
+**Highlights: logo and site icon, custom CSS and theme settings, image editing and upload links (15 new tools)**
+
+### Added
+- **Logo and site icon (3 tools):** see your site's logo and icon, and set or remove them from the media library or a web address. A site icon is cut to a 512 × 512 square the way the Customizer does it, keeping the part you name.
+- **Additional CSS and theme settings (4 tools):** read and change the site's custom CSS, and every setting your theme offers in the Customizer, including Astra's. Each value is checked by the theme's own rules and saved through the Customizer when published.
+- **Synced pattern tools:** see everywhere a pattern is used, turn one use into ordinary blocks, and delete a pattern safely by turning each remaining use into ordinary blocks, so no page loses its content.
+- **Image editing:** crop by shape (16:9, square and so on) keeping the part you name, rotate, flip and resize, as a new image or in place with the original kept. Restore an original, and make missing image sizes.
+- **Upload links:** the AI gives you a link to upload a file, such as a logo or a photo, straight into your media library. It works only for your account, behind your normal sign-in.
+- **Previewed before going live:** logo, icon, CSS and theme settings wait in the theme draft, so you can preview them first. Publishing backs them up for one-step undo.
+- **Everyone connects their own AI:** the approval screen, Connect page and AI Agents page now show that each person connects their own AI with their own WordPress account and gets only the abilities their role allows. The AI Agents page opens with a short guide to role-based AI access, which you can dismiss.
+- **Team dashboard widget:** team members whose role has abilities see their role, how many abilities their AI gets and three steps to connect, with links to the connect steps and to **Your AI Access**. Administrators do not get it.
+- **More setup guides:** the dashboard's connect guide now has steps for Gemini, Perplexity, Grok and Antigravity, including the plan each app needs to add a custom connector. The Connect page links to the Grok and Antigravity setup guides.
+
+### Improved
+- After a menu is assigned to a location or a widget is added to an area, the AI now checks the site's pages and says when the theme does not show it yet, and where to switch it on.
+- WooCommerce, ACF, Yoast SEO, forms and Kadence changes now clear page caches automatically too.
+
+### Security
+- On sites that accept SVG files, SVGs added by AI are cleaned of scripts, outside links and CSS that could load files from other sites, and a drawing built to freeze the browser of whoever opens it is refused.
+- Theme checks now use their short-lived sign-in only on this site's own pages and always remove it when they finish, so a post whose address points to another site (with Page Links To, for example) can no longer receive it.
+
+### Fixed
+- The role matrix on the AI Agents page no longer offers abilities to roles that cannot use them, such as deleting pages for a Subscriber, or WooCommerce's own product and order abilities for every role. WordPress still refused those calls, and grants like that are now flagged so you can turn them off.
+- An agent that was switched off no longer loses its claim to the abilities it owns, which could let two agents own the same ability for a role. Saving now names the agent that already owns an ability.
+- The plugin page no longer shows blank, or lets you click away, before the setup guide appears on a first visit.
+- A warning on menu links to a #section of a page.
+- Minor bug fixes.
+
 ## 1.5.4
 
 **Highlights: block-by-block editing, menus, widgets and shareable previews (38 new tools)**

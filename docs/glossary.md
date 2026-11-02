@@ -8,7 +8,7 @@ Plain-language meanings of the terms you'll see in the plugin and these guides.
 | **MCP (Model Context Protocol)** | An open standard that lets AI assistants use tools in other apps. Think of it as a universal plug between AI apps and software like WordPress. |
 | **MCP server** | Software that offers tools to AI apps over MCP. This plugin turns your WordPress site into one. |
 | **Connector** | What many AI apps call a connection to an MCP server. "Add a connector" means "connect a new MCP server". |
-| **Tool / Ability** | One action the AI can take, such as "create a post" or "update a product price". WordPress calls these *abilities*, and AI apps call them *tools*. This plugin has 464. |
+| **Tool / Ability** | One action the AI can take, such as "create a post" or "update a product price". WordPress calls these *abilities*, and AI apps call them *tools*. This plugin has 479. |
 | **Agent** | A set of rules in the plugin that says which tools each WordPress role is allowed to use. You need at least one enabled agent before the AI can do anything. |
 | **Agent Registry** | The **AI Agents** page in the plugin, where you create agents, set permissions and revoke access. |
 | **Role** | A WordPress user role, such as Administrator, Editor, Author or Shop Manager. Permissions are set per role. |

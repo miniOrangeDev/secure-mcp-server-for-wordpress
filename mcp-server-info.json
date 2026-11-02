@@ -7,8 +7,8 @@
     "website": "https://www.miniorange.com/",
     "supportEmail": "info@xecurify.com"
   },
-  "version": "1.5.4",
-  "lastUpdated": "2026-10-28",
+  "version": "1.5.5",
+  "lastUpdated": "2026-11-01",
   "license": "MIT",
   "summary": "A WordPress plugin that turns a WordPress site into a secure MCP (Model Context Protocol) server, so AI assistants such as Claude, ChatGPT, Cursor and Gemini can read and update the site within role-based permissions set by the site owner.",
   "description": "Secure MCP Server lets AI assistants work on a WordPress site through chat: writing and scheduling posts, editing pages block by block, managing WooCommerce products and orders, updating SEO metadata, editing Elementor, Kadence and Divi layouts, handling form entries, managing menus, widgets, users and settings, and editing themes safely. Unlike plugins that give AI full admin access, every action runs as the WordPress user who approved the connection, is limited to the tools that user's role has been granted in the Agent Registry, is checked against WordPress capabilities, and is recorded in an audit log. No coding is needed to set it up.",
@@ -186,21 +186,21 @@
   ],
 
   "tools": {
-    "total": 464,
+    "total": 479,
     "notes": "Tools for third-party plugins are only offered when that plugin is active on the site. Each tool declares MCP annotations (read-only, destructive, idempotent) and full JSON input/output schemas. Site owners choose which tools each WordPress role may use.",
     "groups": [
       { "group": "Posts & Pages", "count": 56, "summary": "Create, publish, schedule, duplicate, set templates and featured images, trash and restore." },
-      { "group": "Categories, Tags & Media", "count": 40, "summary": "Manage taxonomies, upload media from a URL or file, update alt text and captions." },
+      { "group": "Categories, Tags & Media", "count": 45, "summary": "Manage taxonomies, upload media from a URL or file, update alt text and captions, crop, rotate, flip and resize images, and create upload links." },
       { "group": "Revisions", "count": 9, "summary": "List, compare and restore revisions and autosaves." },
       { "group": "Comments", "count": 21, "summary": "Moderate, reply, search, mark spam and view counts." },
       { "group": "Custom Post Types & Fields", "count": 19, "summary": "Discover any custom post type and edit its items, terms and fields." },
       { "group": "Content Find & Replace", "count": 6, "summary": "Change part of a post, custom field or setting without rewriting it." },
-      { "group": "Block Editor", "count": 11, "summary": "Edit one block at a time: change text or settings, insert, move, duplicate and delete blocks and patterns." },
+      { "group": "Block Editor", "count": 12, "summary": "Edit one block at a time: change text or settings, insert, move, duplicate and delete blocks and patterns, and detach synced patterns." },
       { "group": "Preview Links", "count": 2, "summary": "Expiring links to share a draft without signing in." },
       { "group": "Users & Roles", "count": 38, "summary": "Create users, assign roles, update profiles, send password reset links." },
       { "group": "Settings, Plugins, Themes & Updates", "count": 34, "summary": "Site title, tagline, homepage, timezone, plugin activation and updates, auto-updates, site health." },
       { "group": "Maintenance", "count": 8, "summary": "Clear caches, refresh permalinks, run cron events, read the error log." },
-      { "group": "Theme Editing", "count": 32, "summary": "Block templates, global styles, patterns and theme files, with draft, preview, publish, automatic backup and rollback." },
+      { "group": "Theme Editing", "count": 41, "summary": "Block templates, global styles, patterns and theme files, logo and site icon, Additional CSS and Customizer settings, with draft, preview, publish, automatic backup and rollback." },
       { "group": "Menus & Navigation", "count": 16, "summary": "Build and reorder menus, assign locations, edit block-theme Navigation menus." },
       { "group": "Widgets & Sidebars", "count": 8, "summary": "Add, update, move and delete widgets, including block widgets." },
       { "group": "Site Overview", "count": 1, "summary": "Describes how the site is built and which tools the AI may use." },
@@ -236,7 +236,9 @@
       "Full audit log of every call, allowed or refused: user, AI identity, client, tool, outcome and time.",
       "Destructive actions require confirmation; every tool declares whether it is read-only or destructive.",
       "Page lock refuses edits to content changed after the AI read it.",
-      "Theme changes go to a draft, are syntax-checked and previewed, and publish with automatic backup and rollback.",
+      "Theme changes, including logo, site icon, Additional CSS and Customizer settings, go to a draft, are syntax-checked and previewed, and publish with automatic backup and rollback.",
+      "SVG files added by AI are cleaned of scripts, outside links and external CSS, and malicious drawings are refused.",
+      "Upload links work only for the signed-in user who asked for them.",
       "Prompt-injection detection and behavioural anomaly detection.",
       "Per-client rate limits and quotas, enforced by the miniOrange Gateway.",
       "New tools added by plugin updates start switched off."
@@ -251,7 +253,7 @@
     {
       "name": "Free",
       "where": "https://wordpress.org/plugins/miniorange-secure-mcp-server/",
-      "includes": ["All 464 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
+      "includes": ["All 479 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
     },
     {
       "name": "Pro",

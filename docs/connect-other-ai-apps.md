@@ -1,6 +1,6 @@
 # Connect another AI app
 
-The plugin uses the open **MCP** standard, so it works with any AI app that can connect to a "remote MCP server" or "custom connector". This includes Gemini CLI, VS Code, Claude Code and many more.
+The plugin uses the open **MCP** standard, so it works with any AI app that can connect to a "remote MCP server" or "custom connector". This includes Gemini, Perplexity, Gemini CLI, VS Code, Claude Code and many more.
 
 > **Looking for a specific app?** These have their own step-by-step guides:
 > [Claude](connect-claude.md) · [ChatGPT](connect-chatgpt.md) · [Cursor](connect-cursor.md) · [Grok](connect-grok.md) · [Codex](connect-codex.md) · [Windsurf](connect-windsurf.md) · [Antigravity](connect-antigravity.md)
@@ -25,6 +25,13 @@ The app doesn't need your site's address up front. You enter it on the sign-in p
 4. **Log in to WordPress and approve access.** Done.
 
 > 💡 **Can't find "Connectors" or "Add MCP server"?** Your AI plan may need that feature switched on first. Check your app's help pages for "MCP" or "custom connectors".
+
+### Plans that can add a custom connector
+
+| App | Plan needed |
+|---|---|
+| **Gemini** | Gemini Pro |
+| **Perplexity** | Perplexity Pro, Max or Enterprise. The free plan has no custom connectors. |
 
 ---
 

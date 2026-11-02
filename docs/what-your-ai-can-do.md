@@ -1,6 +1,6 @@
 # What your AI can do
 
-The plugin gives your AI assistant **464 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
+The plugin gives your AI assistant **479 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
 
 Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site.
 
@@ -13,8 +13,8 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 | Area | Tools | What the AI can do |
 |---|---:|---|
 | **Posts and pages** | 56 | Write, edit, publish, schedule, duplicate, set page templates and featured images, trash and restore |
-| **Categories, tags and media** | 40 | Manage categories and tags, upload images from a link or file, update alt text and captions |
-| **Block editor** | 11 | Change *one* heading, paragraph or button and leave every other block exactly as it was; insert, move, duplicate and delete blocks and patterns |
+| **Categories, tags and media** | 45 | Manage categories and tags, upload images from a link or file, update alt text and captions; crop, rotate, flip and resize images while keeping the original; get an upload link to add a file yourself |
+| **Block editor** | 12 | Change *one* heading, paragraph or button and leave every other block exactly as it was; insert, move, duplicate and delete blocks and patterns; see where a synced pattern is used and turn it into ordinary blocks |
 | **Find and replace** | 6 | Change one sentence in a post, custom field or setting without rewriting the whole thing |
 | **Revisions** | 9 | List, compare and restore earlier versions |
 | **Comments** | 21 | Moderate, reply, search and mark spam |
@@ -29,7 +29,7 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 | **Settings, plugins, themes and updates** | 34 | Site title, tagline, homepage, timezone; activate and update plugins; check site health |
 | **Menus and navigation** | 16 | Build menus, add and reorder items, assign menu locations, edit block-theme navigation |
 | **Widgets and sidebars** | 8 | Add, update, move and delete widgets, including block widgets |
-| **Theme editing** | 32 | Edit templates, global styles, patterns and theme files, always in a draft you preview first |
+| **Theme editing** | 41 | Edit templates, global styles, patterns and theme files; set the logo and site icon; change Additional CSS and your theme's Customizer settings. Always in a draft you preview first |
 | **Maintenance** | 8 | Clear caches, refresh permalinks, run scheduled tasks, read the error log |
 | **Site overview** | 1 | Tells the AI how your site is built (theme, page builder, plugins) so it picks the right tools |
 
@@ -72,7 +72,7 @@ Pages made with the normal WordPress block editor use the **Block editor** tools
 
 ## Other plugins: Governed REST API access
 
-Beyond the 464 built-in tools, the AI can use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed.
+Beyond the 479 built-in tools, the AI can use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed.
 
 You stay in control:
 
@@ -92,6 +92,7 @@ Copy any of these into your AI app.
 - *"Change the heading in my homepage hero to 'Spring Collection'."*
 - *"Replace 'Call us on 555-0100' with 'Call us on 555-0199' everywhere on the site."*
 - *"Draft a post about our new service and send me a preview link I can share with my team."*
+- *"Crop this photo to 16:9, keeping the left side, and save it as a new image."*
 
 **Store**
 - *"Find all products under $50 and put them on a 20% sale until Sunday."*
@@ -107,6 +108,8 @@ Copy any of these into your AI app.
 - *"Why aren't my scheduled posts publishing? Check cron and the error log."*
 - *"Which plugins have updates available?"*
 - *"Change the footer text in my theme, preview it, then publish."*
+- *"Set our new logo as the site logo and the site icon, and let me preview it before it goes live."*
+- *"Add some custom CSS to make the header buttons rounded."*
 
 **Forms**
 - *"Export this month's Gravity Forms entries as CSV."*

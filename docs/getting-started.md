@@ -61,7 +61,7 @@ Pick your app in the plugin, or use the guide for it below:
 - [Connect Codex](connect-codex.md)
 - [Connect Windsurf](connect-windsurf.md)
 - [Connect Antigravity](connect-antigravity.md)
-- [Connect another AI app](connect-other-ai-apps.md): Gemini CLI, VS Code, Claude Code and others
+- [Connect another AI app](connect-other-ai-apps.md): Gemini, Perplexity, Gemini CLI, VS Code, Claude Code and others
 
 Every app follows the same pattern:
 
@@ -91,5 +91,5 @@ More ideas: [What your AI can do](what-your-ai-can-do.md)
 
 - **Check the activity log.** Open **Secure MCP Server → Activity Log** to see every action the AI took.
 - **Add more tools as you need them.** Open **AI Agents**, edit your agent and tick more boxes. When you update the plugin, new tools start switched off, so turn on the ones you want.
-- **Invite your team.** Each team member can connect their own AI app. Each person gets their own role's permissions and their own entries in the log. Members can open **Your AI Access** to see which tools they have.
+- **Invite your team.** Each team member connects their own AI app with their own WordPress account. Each person gets only the tools their role allows, and their own entries in the log. Members whose role has tools see a dashboard widget with their role, how many tools their AI gets and three steps to connect, and can open **Your AI Access** to see which tools they have. Administrators don't see the widget.
 - **Something not working?** Open the plugin's **Troubleshooting** tab, or read the [troubleshooting guide](troubleshooting.md).

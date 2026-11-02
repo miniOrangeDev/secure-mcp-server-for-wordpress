@@ -12,13 +12,13 @@ MCP (Model Context Protocol) is an open standard that lets AI assistants use too
 No. You install the plugin, tick which tools to allow, and connect your AI app by clicking through a few screens. See [Getting started](getting-started.md).
 
 ### Is it free?
-Yes. The plugin is free on [WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) with all 464 tools, role permissions, secure sign-in and the activity log. Paid **Pro** and **Business** plans add Divi support, human approval and data-masking rules. [See pricing](https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress#pricing).
+Yes. The plugin is free on [WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) with all 479 tools, role permissions, secure sign-in and the activity log. Paid **Pro** and **Business** plans add Divi support, human approval and data-masking rules. [See pricing](https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress#pricing).
 
 ### Which AI apps work with it?
-Claude, ChatGPT, Grok, Cursor, Codex, Windsurf, Antigravity, Gemini CLI, VS Code, Claude Code and any other app that supports remote MCP servers. You can connect several at once. Each app has its own setup guide; see [Getting started](getting-started.md#step-3-connect-your-ai-app).
+Claude, ChatGPT, Grok, Cursor, Codex, Windsurf, Antigravity, Gemini, Perplexity, Gemini CLI, VS Code, Claude Code and any other app that supports remote MCP servers. You can connect several at once. Each app has its own setup guide; see [Getting started](getting-started.md#step-3-connect-your-ai-app).
 
 ### How many tools are there?
-464, covering WordPress content, the block editor, menus, widgets, users, settings, theme editing and maintenance, plus WooCommerce, Yoast SEO, Rank Math, Advanced Custom Fields, Elementor, Kadence, Divi (Pro), Contact Form 7, WPForms, Gravity Forms and Fluent Forms. Tools for another plugin only appear when that plugin is active. See [What your AI can do](what-your-ai-can-do.md).
+479, covering WordPress content, the block editor, menus, widgets, users, settings, theme editing and maintenance, plus WooCommerce, Yoast SEO, Rank Math, Advanced Custom Fields, Elementor, Kadence, Divi (Pro), Contact Form 7, WPForms, Gravity Forms and Fluent Forms. Tools for another plugin only appear when that plugin is active. See [What your AI can do](what-your-ai-can-do.md).
 
 ## Safety
 
@@ -56,6 +56,12 @@ Yes. Elementor (10 tools) and Kadence Blocks (18 tools) are in the free plan. Di
 
 ### Can the AI edit just one part of a page?
 Yes. For block-editor pages it can change a single heading, paragraph or button and leave every other block exactly as it was. It can also find and replace one sentence inside a post or setting.
+
+### Can the AI change my logo, site icon or custom CSS?
+Yes. It can set or remove your logo and site icon from the media library or a web address, and read and change your Additional CSS and your theme's Customizer settings, including Astra's. These changes wait in the theme draft so you can preview them, and publishing backs them up for one-step undo.
+
+### Can the AI edit my images?
+Yes. It can crop (by shape, such as 16:9 or square, keeping the part you name), rotate, flip and resize, either as a new image or in place with the original kept. It can restore an original and make missing image sizes. It can also give you an upload link to add a file yourself, which works only for your account.
 
 ### Can it use my other plugins?
 Yes. With **Governed REST API access**, the AI can use the REST API of almost any plugin, such as booking, membership or LMS plugins. It's read-only by default, and you allow writes route by route.
