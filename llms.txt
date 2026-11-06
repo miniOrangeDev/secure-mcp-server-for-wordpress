@@ -1,6 +1,6 @@
 # WordPress MCP Server
 
-> A free WordPress plugin by miniOrange that turns a WordPress site into a secure MCP (Model Context Protocol) server. AI assistants such as Claude, ChatGPT, Cursor and Gemini can then read and manage the site through chat, using 479 tools, within role-based permissions the site owner sets. Every action is checked against WordPress capabilities and logged. No coding is needed.
+> A free WordPress plugin by miniOrange that turns a WordPress site into a secure MCP (Model Context Protocol) server. AI assistants such as Claude, ChatGPT, Cursor and Gemini can then read and manage the site through chat, using 483 tools, within role-based permissions the site owner sets. Every action is checked against WordPress capabilities and logged. No coding is needed.
 
 MCP endpoint (same for every site): https://gateway.miniorange.ai/v2/mcp
 Transport: Streamable HTTP. Authentication: OAuth 2.1 with PKCE. During sign-in, the user enters their WordPress site address on the miniOrange Gateway page, then logs in to their own WordPress site and clicks "Allow access".

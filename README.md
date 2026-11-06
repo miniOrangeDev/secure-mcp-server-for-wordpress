@@ -4,7 +4,7 @@
 
 [![WordPress plugin version](https://img.shields.io/wordpress/plugin/v/miniorange-secure-mcp-server?label=WordPress.org)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
 [![Requires WordPress](https://img.shields.io/badge/WordPress-6.9%2B-21759b)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
-[![Tools](https://img.shields.io/badge/AI%20tools-479-6c47ff)](docs/what-your-ai-can-do.md)
+[![Tools](https://img.shields.io/badge/AI%20tools-483-6c47ff)](docs/what-your-ai-can-do.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 [Install free from WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) ·
@@ -89,7 +89,7 @@ It is the same for every site. The app will then ask for your site's address, an
 
 ## What your AI can do
 
-**479 tools** covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
+**483 tools** covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
 
 | Area | Examples |
 |---|---|
@@ -114,7 +114,7 @@ See the full list and more example prompts: [What your AI can do](docs/what-your
 
 | Feature | Free | Pro | Business |
 |---|:---:|:---:|:---:|
-| 479 AI tools, Agent Registry, role permissions | ✅ | ✅ | ✅ |
+| 483 AI tools, Agent Registry, role permissions | ✅ | ✅ | ✅ |
 | Secure sign-in, activity log, troubleshooting | ✅ | ✅ | ✅ |
 | Governed REST API access to other plugins | ✅ | ✅ | ✅ |
 | Divi 4 and Divi 5 page-builder support | | ✅ | ✅ |

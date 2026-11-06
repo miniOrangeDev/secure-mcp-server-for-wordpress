@@ -8,6 +8,18 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.6
+
+**Highlights: exact edits inside Elementor widgets and read-only SEO tools (4 new tools)**
+
+### Added
+- **Exact edits for Elementor:** change a line of code in a large HTML widget, or a sentence in a long text block, without sending the whole widget back. Several edits can be made at once; they all apply or none do, and when a phrase is not found the AI is shown the closest text.
+- **Full read of one Elementor element:** long HTML and text are no longer cut short when the AI reads them.
+- **Read-only SEO tools:** read each post's SEO title, meta description, focus keywords and indexing, as saved and as search engines see them, or list the posts with SEO issues. They need only permission to read the post, so a Subscriber's AI can review SEO without editing rights. Works with Rank Math and Yoast SEO.
+
+### Security
+- Custom field and setting edits now refuse code a user is not allowed to add, such as scripts, iframes or onclick handlers, and say why. Posts and Elementor already worked this way.
+
 ## 1.5.5
 
 **Highlights: logo and site icon, custom CSS and theme settings, image editing and upload links (15 new tools)**

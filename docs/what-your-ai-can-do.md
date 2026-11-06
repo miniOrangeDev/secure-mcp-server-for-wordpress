@@ -1,6 +1,6 @@
 # What your AI can do
 
-The plugin gives your AI assistant **479 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
+The plugin gives your AI assistant **483 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
 
 Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site.
 
@@ -45,13 +45,13 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 
 ## SEO (Yoast SEO and Rank Math)
 
-**15 tools.** Update SEO titles and meta descriptions in bulk, set focus keywords, mark cornerstone content, and control robots settings, canonical URLs, breadcrumb titles and sitemap inclusion. Manage Open Graph and X (Twitter) cards and schema types. Rank Math SEO data is supported too.
+**17 tools.** Update SEO titles and meta descriptions in bulk, set focus keywords, mark cornerstone content, and control robots settings, canonical URLs, breadcrumb titles and sitemap inclusion. Manage Open Graph and X (Twitter) cards and schema types. Rank Math SEO data is supported too. **Read-only SEO tools** let the AI review each post's SEO title, meta description, focus keywords and indexing, or list posts with SEO issues, with only permission to read the post, so even a Subscriber's AI can run an SEO review without editing rights.
 
 ## Page builders
 
 | Builder | Tools | What the AI can do |
 |---|---:|---|
-| **Elementor** | 10 | Read a page layout; change text, images, links and styling without breaking the design; move, duplicate or delete elements; preview the result |
+| **Elementor** | 12 | Read a page layout or one whole element; change text, images, links and styling without breaking the design; fix one line of code in a large HTML widget or one sentence in a long text block; move, duplicate or delete elements; preview the result |
 | **Kadence Blocks** | 18 | Build new Kadence pages; insert rows, columns, headings, buttons, icons and images; update text and styling |
 | **Divi 4 and Divi 5** | Pro plan | Read Divi layouts and update modules, text, images, links and styling without opening the visual builder |
 
@@ -72,7 +72,7 @@ Pages made with the normal WordPress block editor use the **Block editor** tools
 
 ## Other plugins: Governed REST API access
 
-Beyond the 479 built-in tools, the AI can use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed.
+Beyond the 483 built-in tools, the AI can use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed.
 
 You stay in control:
 
@@ -102,6 +102,7 @@ Copy any of these into your AI app.
 **SEO**
 - *"Write meta descriptions for every post that doesn't have one."*
 - *"Which pages are set to noindex? List them for me."*
+- *"Which posts have SEO issues, such as a missing meta description?"*
 
 **Site upkeep**
 - *"Add our new Pricing page to the main menu, right after About."*
