@@ -8,6 +8,25 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.7
+
+**Highlights: read-only REST access, multisite support, and Italian and Japanese**
+
+### Added
+- **Read REST Route:** a read-only tool for the REST API routes you have allowed. It sends only GET requests, so it cannot change anything. Agents that could already call REST routes get it automatically.
+- **Multisite support:** Network Admin has a Secure MCP Server page that lists every site with a link to its settings.
+- **Italian and Japanese:** the admin, the approval screen and the deactivation form follow each person's WordPress language. What the AI sees stays in English.
+- **Gemini setup guide:** the Connect page now links to a step-by-step guide for connecting Gemini.
+
+### Improved
+- On multisite networks, plugin tools are offered only to people who can manage plugins for the network.
+
+### Security
+- Users who do not belong to a site can no longer be looked up from it on multisite networks.
+
+### Fixed
+- Your AI's connection token is no longer sent to plugin REST routes, so plugins that reject tokens they don't recognise no longer block AI calls.
+
 ## 1.5.6
 
 **Highlights: exact edits inside Elementor widgets and read-only SEO tools (4 new tools)**

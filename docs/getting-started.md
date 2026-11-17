@@ -56,12 +56,13 @@ Pick your app in the plugin, or use the guide for it below:
 
 - [Connect Claude](connect-claude.md)
 - [Connect ChatGPT](connect-chatgpt.md)
+- [Connect Gemini](connect-gemini.md)
 - [Connect Cursor](connect-cursor.md)
 - [Connect Grok](connect-grok.md)
 - [Connect Codex](connect-codex.md)
 - [Connect Windsurf](connect-windsurf.md)
 - [Connect Antigravity](connect-antigravity.md)
-- [Connect another AI app](connect-other-ai-apps.md): Gemini, Perplexity, Gemini CLI, VS Code, Claude Code and others
+- [Connect another AI app](connect-other-ai-apps.md): Perplexity, Gemini CLI, VS Code, Claude Code and others
 
 Every app follows the same pattern:
 

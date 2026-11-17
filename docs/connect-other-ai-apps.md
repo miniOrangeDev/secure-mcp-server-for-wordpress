@@ -3,7 +3,7 @@
 The plugin uses the open **MCP** standard, so it works with any AI app that can connect to a "remote MCP server" or "custom connector". This includes Gemini, Perplexity, Gemini CLI, VS Code, Claude Code and many more.
 
 > **Looking for a specific app?** These have their own step-by-step guides:
-> [Claude](connect-claude.md) · [ChatGPT](connect-chatgpt.md) · [Cursor](connect-cursor.md) · [Grok](connect-grok.md) · [Codex](connect-codex.md) · [Windsurf](connect-windsurf.md) · [Antigravity](connect-antigravity.md)
+> [Claude](connect-claude.md) · [ChatGPT](connect-chatgpt.md) · [Gemini](connect-gemini.md) · [Cursor](connect-cursor.md) · [Grok](connect-grok.md) · [Codex](connect-codex.md) · [Windsurf](connect-windsurf.md) · [Antigravity](connect-antigravity.md)
 
 You can connect several apps at once. Each connection has its own permissions and its own entries in the activity log.
 
@@ -30,7 +30,7 @@ The app doesn't need your site's address up front. You enter it on the sign-in p
 
 | App | Plan needed |
 |---|---|
-| **Gemini** | Gemini Pro |
+| **Gemini** | Gemini Pro. See [Connect Gemini](connect-gemini.md). |
 | **Perplexity** | Perplexity Pro, Max or Enterprise. The free plan has no custom connectors. |
 
 ---

@@ -71,6 +71,8 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 - **Dangerous routes are always blocked:** plugin and theme installs and activations can never be granted through the REST API.
 - **SVG files are cleaned:** on sites that accept SVG uploads, SVGs added by the AI have scripts, outside links and CSS that could load files from other sites removed. A drawing built to freeze the browser of whoever opens it is refused.
 - **Code is refused for users who can't add it:** if WordPress doesn't let a user add code such as scripts, iframes or `onclick` handlers, the AI's edits to posts, Elementor pages, custom fields and settings are refused too, and the AI is told why.
+- **Your AI's pass stays private:** the connection token is never sent to other plugins' REST routes.
+- **Multisite networks are kept apart:** plugin tools are offered only to people who can manage plugins for the network, and users who don't belong to a site can't be looked up from it.
 - **Upload links are personal:** when the AI gives you a link to upload a file, it works only for your account, behind your normal sign-in.
 - **Flags risky grants:** the role grid in **AI Agents** only offers abilities a role can actually use, and flags existing grants a role cannot use so you can turn them off.
 

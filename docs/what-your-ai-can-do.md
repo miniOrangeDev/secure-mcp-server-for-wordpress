@@ -1,10 +1,10 @@
 # What your AI can do
 
-The plugin gives your AI assistant **483 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
+The plugin gives your AI assistant **487 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
 
-Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site.
+Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site. The **Pro** plan adds [250 more tools for 39 plugin integrations](#pro-plan-250-more-tools-for-39-plugin-integrations).
 
-**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
+**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Pro plan](#pro-plan-250-more-tools-for-39-plugin-integrations) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
 
 ---
 
@@ -53,7 +53,7 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 |---|---:|---|
 | **Elementor** | 12 | Read a page layout or one whole element; change text, images, links and styling without breaking the design; fix one line of code in a large HTML widget or one sentence in a long text block; move, duplicate or delete elements; preview the result |
 | **Kadence Blocks** | 18 | Build new Kadence pages; insert rows, columns, headings, buttons, icons and images; update text and styling |
-| **Divi 4 and Divi 5** | Pro plan | Read Divi layouts and update modules, text, images, links and styling without opening the visual builder |
+| **Divi 4 and Divi 5** | 22, Pro plan | Read Divi layouts and update modules, text, images, links and styling without opening the visual builder |
 
 Pages made with the normal WordPress block editor use the **Block editor** tools above.
 
@@ -70,13 +70,34 @@ Pages made with the normal WordPress block editor use the **Block editor** tools
 
 **25 tools** for **Advanced Custom Fields**: read and update any field value, work with repeaters, flexible content, relationships and options pages, create field groups and fields, and search posts by field value.
 
+## Pro plan: 250 more tools for 39 plugin integrations
+
+The **Pro** and **Business** plans add **250 tools** on top of the 487 above, so the AI can work with many more plugins. Like the other plugin tools, each set **only appears when that plugin is installed and active** on your site, at a version the tools were written for.
+
+| Area | Plugins | Tools |
+|---|---|---:|
+| **Page builders** | Divi 4 (9), Divi 5 (13), Elementor Pro (16), Bricks Builder (8), Beaver Builder (7), WPBakery Page Builder (7), Avada Builder (5), Breakdance (5), Oxygen Builder (5) | 75 |
+| **Online store and memberships** | WooCommerce Subscriptions (9), Easy Digital Downloads (7), WooCommerce Bookings (7), Subscriptions for WooCommerce by WP Swings (7), MemberPress (6), WooCommerce Memberships (6), Paid Memberships Pro (5) | 47 |
+| **Courses and learning** | Tutor LMS (12), LearnDash (9), LifterLMS (5) | 26 |
+| **SEO** | Rank Math SEO (8), All in One SEO (5), SEOPress (5), Yoast SEO Premium (5) | 23 |
+| **Custom fields and dynamic content** | Advanced Custom Fields Pro (7), Meta Box (6), JetEngine (4) | 17 |
+| **Languages** | WPML (7), Polylang (5), TranslatePress (4) | 16 |
+| **Forms** | Formidable Forms (5), Ninja Forms (4), Forminator (4) | 13 |
+| **Email and marketing** | FluentCRM (7), MailPoet (4) | 11 |
+| **Events** | The Events Calendar (5), Event Tickets (4), Events Calendar Pro (1) | 10 |
+| **Real estate** | Houzez (8) | 8 |
+| **Speed** | WP Rocket (4) | 4 |
+
+With the Pro plan that's **737 tools** in all. Human approval and data rules are added by the Business plan. [See plans](../README.md#plans).
+
 ## Other plugins: Governed REST API access
 
-Beyond the 483 built-in tools, the AI can use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed.
+Four of the 487 tools let the AI use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed: list routes, describe a route, read a route and call a route.
 
 You stay in control:
 
 - **Read-only to start.** A new agent can read posts, pages and media. Anything that *changes* data needs your permission.
+- **A read-only tool.** *Read REST Route* sends only read (GET) requests to the routes you've allowed, so it can never change anything. Agents that could already use REST routes get it automatically.
 - **Route by route.** Allow each route, for reading or writing, per user role.
 - **Global off switches.** Turn off all create, update or delete actions for the whole site in one click.
 - **Dangerous actions are always blocked.** Installing or activating plugins and themes, batch requests and blueprint imports can never be allowed this way.
