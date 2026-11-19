@@ -70,6 +70,7 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 - **Rate limits:** stop any one AI app from making too many requests (enforced by the miniOrange Gateway).
 - **Dangerous routes are always blocked:** plugin and theme installs and activations can never be granted through the REST API.
 - **SVG files are cleaned:** on sites that accept SVG uploads, SVGs added by the AI have scripts, outside links and CSS that could load files from other sites removed. A drawing built to freeze the browser of whoever opens it is refused.
+- **Protected content stays protected:** the content of a password-protected post is shown only to people who can edit it, and revision and autosave history, which holds unpublished edits, needs permission to edit the post.
 - **Code is refused for users who can't add it:** if WordPress doesn't let a user add code such as scripts, iframes or `onclick` handlers, the AI's edits to posts, Elementor pages, custom fields and settings are refused too, and the AI is told why.
 - **Your AI's pass stays private:** the connection token is never sent to other plugins' REST routes.
 - **Multisite networks are kept apart:** plugin tools are offered only to people who can manage plugins for the network, and users who don't belong to a site can't be looked up from it.

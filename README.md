@@ -4,7 +4,7 @@
 
 [![WordPress plugin version](https://img.shields.io/wordpress/plugin/v/miniorange-secure-mcp-server?label=WordPress.org)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
 [![Requires WordPress](https://img.shields.io/badge/WordPress-6.9%2B-21759b)](https://wordpress.org/plugins/miniorange-secure-mcp-server/)
-[![Tools](https://img.shields.io/badge/AI%20tools-487-6c47ff)](docs/what-your-ai-can-do.md)
+[![Tools](https://img.shields.io/badge/AI%20tools-487%20free%20%7C%20737%20with%20Pro-6c47ff)](docs/what-your-ai-can-do.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 [Install free from WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) ·
@@ -90,7 +90,7 @@ It is the same for every site. The app will then ask for your site's address, an
 
 ## What your AI can do
 
-**487 tools** covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
+**487 tools** in the free plan (**737** with Pro) covering the parts of WordPress people use most. Tools for other plugins only appear when that plugin is installed on your site.
 
 | Area | Examples |
 |---|---|
@@ -107,7 +107,7 @@ It is the same for every site. The app will then ask for your site's address, an
 | **Page builders** | Elementor, Kadence Blocks, and Divi 4 and 5 (Pro) |
 | **Forms** | Contact Form 7, WPForms, Gravity Forms, Fluent Forms, including CSV export of entries |
 | **Custom fields** | Advanced Custom Fields (ACF), custom post types |
-| **Other plugins** | Use the REST API of almost any other plugin, under the same permissions |
+| **Other plugins** | Four REST tools let the AI use the REST API of almost any other plugin, under the same permissions |
 | **More plugins (Pro)** | 250 more tools for 39 plugin integrations: Divi, Elementor Pro, Bricks, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more |
 
 See the full list and more example prompts: [What your AI can do](docs/what-your-ai-can-do.md)
@@ -116,10 +116,10 @@ See the full list and more example prompts: [What your AI can do](docs/what-your
 
 | Feature | Free | Pro | Business |
 |---|:---:|:---:|:---:|
-| 487 AI tools, Agent Registry, role permissions | ✅ | ✅ | ✅ |
+| 487 AI tools (including 4 REST tools), Agent Registry, role permissions | ✅ | ✅ | ✅ |
 | Secure sign-in, activity log, troubleshooting | ✅ | ✅ | ✅ |
 | Governed REST API access to other plugins | ✅ | ✅ | ✅ |
-| 250 more AI tools for 39 plugin integrations, including Divi 4 and 5, Elementor Pro, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more ([full list](docs/what-your-ai-can-do.md#pro-plan-250-more-tools-for-39-plugin-integrations)) | | ✅ | ✅ |
+| 250 more AI tools for 39 plugin integrations (737 in all), including Divi 4 and 5, Elementor Pro, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more ([full list](docs/what-your-ai-can-do.md#pro-plan-250-more-tools-for-39-plugin-integrations)) | | ✅ | ✅ |
 | Human approval for sensitive actions | | | ✅ |
 | Data rules that hide emails, phone numbers and secrets from the AI | | | ✅ |
 

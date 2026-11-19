@@ -76,7 +76,7 @@ Yes. With **Governed REST API access**, the AI can use the REST API of almost an
 Yes. **Network Admin → Secure MCP Server** lists every site on the network with a link to its settings. Plugin tools are offered only to people who can manage plugins for the network, and the AI can't look up users who don't belong to the site it's working on.
 
 ### Is the plugin available in my language?
-The admin, the approval screen and the deactivation form are available in Italian and Japanese, and follow each person's WordPress language. What the AI sees stays in English.
+The admin, the approval screen and the deactivation form are available in Arabic (laid out right to left), Italian and Japanese, and follow each person's WordPress language. What the AI sees stays in English.
 
 ### Can I connect more than one AI app?
 Yes, as many as you like. Each has its own permissions and its own entries in the log.

@@ -8,6 +8,16 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.8
+
+**Highlights: Arabic, and safer handling of password-protected posts and revisions**
+
+### Added
+- **Arabic:** the admin, the approval screen and the deactivation form follow each person's WordPress language and lay out right to left. What the AI sees stays in English.
+
+### Security
+- Password-protected posts and revision history now follow WordPress's own rules. A password-protected post's content is shown only to people who can edit the post, and revisions and autosaves, which hold unpublished edits, need permission to edit the post, not just to read it.
+
 ## 1.5.7
 
 **Highlights: read-only REST access, multisite support, and Italian and Japanese**

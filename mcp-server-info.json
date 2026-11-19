@@ -7,8 +7,8 @@
     "website": "https://www.miniorange.com/",
     "supportEmail": "info@xecurify.com"
   },
-  "version": "1.5.7",
-  "lastUpdated": "2026-11-16",
+  "version": "1.5.8",
+  "lastUpdated": "2026-11-18",
   "license": "MIT",
   "summary": "A WordPress plugin that turns a WordPress site into a secure MCP (Model Context Protocol) server, so AI assistants such as Claude, ChatGPT, Cursor and Gemini can read and update the site within role-based permissions set by the site owner.",
   "description": "Secure MCP Server lets AI assistants work on a WordPress site through chat: writing and scheduling posts, editing pages block by block, managing WooCommerce products and orders, updating SEO metadata, editing Elementor, Kadence and Divi layouts, handling form entries, managing menus, widgets, users and settings, and editing themes safely. Unlike plugins that give AI full admin access, every action runs as the WordPress user who approved the connection, is limited to the tools that user's role has been granted in the Agent Registry, is checked against WordPress capabilities, and is recorded in an audit log. No coding is needed to set it up.",
@@ -276,6 +276,7 @@
       "SVG files added by AI are cleaned of scripts, outside links and external CSS, and malicious drawings are refused.",
       "Upload links work only for the signed-in user who asked for them.",
       "The AI's connection token is never sent to plugin REST routes.",
+      "Password-protected post content is shown only to people who can edit the post, and revisions and autosaves need permission to edit the post.",
       "On multisite networks, plugin tools are offered only to network plugin managers, and users who do not belong to a site cannot be looked up from it.",
       "Code that a user is not allowed to add, such as scripts, iframes or onclick handlers, is refused in post, Elementor, custom field and setting edits, with the reason.",
       "Prompt-injection detection and behavioural anomaly detection.",

@@ -16,7 +16,7 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 | **Categories, tags and media** | 45 | Manage categories and tags, upload images from a link or file, update alt text and captions; crop, rotate, flip and resize images while keeping the original; get an upload link to add a file yourself |
 | **Block editor** | 12 | Change *one* heading, paragraph or button and leave every other block exactly as it was; insert, move, duplicate and delete blocks and patterns; see where a synced pattern is used and turn it into ordinary blocks |
 | **Find and replace** | 6 | Change one sentence in a post, custom field or setting without rewriting the whole thing |
-| **Revisions** | 9 | List, compare and restore earlier versions |
+| **Revisions** | 9 | List, compare and restore earlier versions (needs permission to edit the post) |
 | **Comments** | 21 | Moderate, reply, search and mark spam |
 | **Custom post types and fields** | 19 | Work with any custom content type, such as portfolios, events or team members |
 | **Preview links** | 2 | Create an expiring link so anyone can view a draft without logging in |
