@@ -17,6 +17,8 @@ https://gateway.miniorange.ai/v2/mcp
 
 The app doesn't need your site's address up front. You enter it on the sign-in page when you connect.
 
+> ⚠️ **Always use this gateway URL.** From version 1.5.9, connecting an app straight to your site's own address no longer works.
+
 ## Steps (any app)
 
 1. **Find "Add connector" or "Add MCP server".** Most AI apps keep this under **Settings → Connectors**, **Integrations** or **MCP**. Look for options called *custom connector* or *remote MCP server*.

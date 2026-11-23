@@ -8,6 +8,24 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.9
+
+**Highlights: AI apps now connect through the miniOrange MCP Gateway only, with tighter sign-in and theme file checks**
+
+> ⚠️ **If an AI app was connected straight to your site's own address** (`/wp-json/mosmcp/v1/mcp`), it stops working. Remove it and add it again with `https://gateway.miniorange.ai/v2/mcp`. The **Connect to AI** page has the steps.
+
+### Improved
+- **Connections go through the miniOrange MCP Gateway.** The Connect to AI page has the steps for each app, and direct connections to your site no longer work.
+- **Theme file tools follow the Theme File Editor rules.** Listing, reading, searching and outlining theme files now need the same permission as the Theme File Editor: administrators on a single site and super admins on a multisite network. Sites that switch theme file access off (`DISALLOW_FILE_EDIT`) or file changes off (`DISALLOW_FILE_MODS`) are respected, and the AI is told why.
+
+### Security
+- Sign-in codes are now sent only to the miniOrange Gateway, never to another address an AI app registers.
+- An AI app's connection token no longer signs in as its owner on requests other than the MCP endpoint.
+- Theme code is no longer shown to users WordPress does not allow to view it, such as a Shop Manager.
+
+### Fixed
+- Minor bug fixes.
+
 ## 1.5.8
 
 **Highlights: Arabic, and safer handling of password-protected posts and revisions**

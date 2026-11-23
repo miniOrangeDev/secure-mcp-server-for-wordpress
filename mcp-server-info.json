@@ -7,8 +7,8 @@
     "website": "https://www.miniorange.com/",
     "supportEmail": "info@xecurify.com"
   },
-  "version": "1.5.8",
-  "lastUpdated": "2026-11-18",
+  "version": "1.5.9",
+  "lastUpdated": "2026-11-20",
   "license": "MIT",
   "summary": "A WordPress plugin that turns a WordPress site into a secure MCP (Model Context Protocol) server, so AI assistants such as Claude, ChatGPT, Cursor and Gemini can read and update the site within role-based permissions set by the site owner.",
   "description": "Secure MCP Server lets AI assistants work on a WordPress site through chat: writing and scheduling posts, editing pages block by block, managing WooCommerce products and orders, updating SEO metadata, editing Elementor, Kadence and Divi layouts, handling form entries, managing menus, widgets, users and settings, and editing themes safely. Unlike plugins that give AI full admin access, every action runs as the WordPress user who approved the connection, is limited to the tools that user's role has been granted in the Agent Registry, is checked against WordPress capabilities, and is recorded in an audit log. No coding is needed to set it up.",
@@ -34,8 +34,8 @@
       "role": "Routes AI client requests to the user's WordPress site and enforces per-client rate limits and quotas. Tools run, and permissions are checked, on the WordPress site itself."
     },
     "directConnection": {
-      "status": "deprecated",
-      "notes": "Connecting an AI client directly to the site's own /wp-json/mosmcp/v1/mcp endpoint still works in current releases but is deprecated and will stop working. Use the gateway endpoint."
+      "status": "removed",
+      "notes": "From version 1.5.9, connecting an AI client directly to the site's own /wp-json/mosmcp/v1/mcp endpoint no longer works. Remove the old connection and add it again using the gateway endpoint."
     },
     "prerequisites": [
       "The Secure MCP Server plugin is installed and active on the WordPress site.",
@@ -275,7 +275,9 @@
       "Theme changes, including logo, site icon, Additional CSS and Customizer settings, go to a draft, are syntax-checked and previewed, and publish with automatic backup and rollback.",
       "SVG files added by AI are cleaned of scripts, outside links and external CSS, and malicious drawings are refused.",
       "Upload links work only for the signed-in user who asked for them.",
-      "The AI's connection token is never sent to plugin REST routes.",
+      "The AI's connection token is never sent to plugin REST routes, and only signs in as its owner on the MCP endpoint.",
+      "Sign-in codes are sent only to the miniOrange Gateway, never to another address an AI app registers.",
+      "Theme file tools need the same permission as the Theme File Editor, and respect DISALLOW_FILE_EDIT and DISALLOW_FILE_MODS.",
       "Password-protected post content is shown only to people who can edit the post, and revisions and autosaves need permission to edit the post.",
       "On multisite networks, plugin tools are offered only to network plugin managers, and users who do not belong to a site cannot be looked up from it.",
       "Code that a user is not allowed to add, such as scripts, iframes or onclick handlers, is refused in post, Elementor, custom field and setting edits, with the reason.",

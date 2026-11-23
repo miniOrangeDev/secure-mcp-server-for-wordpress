@@ -29,7 +29,7 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 | **Settings, plugins, themes and updates** | 34 | Site title, tagline, homepage, timezone; activate and update plugins; check site health |
 | **Menus and navigation** | 16 | Build menus, add and reorder items, assign menu locations, edit block-theme navigation |
 | **Widgets and sidebars** | 8 | Add, update, move and delete widgets, including block widgets |
-| **Theme editing** | 41 | Edit templates, global styles, patterns and theme files; set the logo and site icon; change Additional CSS and your theme's Customizer settings. Always in a draft you preview first |
+| **Theme editing** | 41 | Edit templates, global styles, patterns and theme files; set the logo and site icon; change Additional CSS and your theme's Customizer settings. Always in a draft you preview first. Reading theme files needs Theme File Editor permission |
 | **Maintenance** | 8 | Clear caches, refresh permalinks, run scheduled tasks, read the error log |
 | **Site overview** | 1 | Tells the AI how your site is built (theme, page builder, plugins) so it picks the right tools |
 

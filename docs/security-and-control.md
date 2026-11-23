@@ -70,6 +70,7 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 - **Rate limits:** stop any one AI app from making too many requests (enforced by the miniOrange Gateway).
 - **Dangerous routes are always blocked:** plugin and theme installs and activations can never be granted through the REST API.
 - **SVG files are cleaned:** on sites that accept SVG uploads, SVGs added by the AI have scripts, outside links and CSS that could load files from other sites removed. A drawing built to freeze the browser of whoever opens it is refused.
+- **Theme code needs Theme File Editor permission:** the AI can list, read, search and outline theme files only for people WordPress lets use the Theme File Editor (administrators on a single site, super admins on a multisite network). Sites that switch theme file access off in `wp-config.php` stay switched off.
 - **Protected content stays protected:** the content of a password-protected post is shown only to people who can edit it, and revision and autosave history, which holds unpublished edits, needs permission to edit the post.
 - **Code is refused for users who can't add it:** if WordPress doesn't let a user add code such as scripts, iframes or `onclick` handlers, the AI's edits to posts, Elementor pages, custom fields and settings are refused too, and the AI is told why.
 - **Your AI's pass stays private:** the connection token is never sent to other plugins' REST routes.
@@ -86,7 +87,7 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 
 ## Where does my data go?
 
-The tools run, and every permission is checked, **on your own WordPress site**. Your AI app connects through the **miniOrange Gateway** (`gateway.miniorange.ai`). The gateway passes the AI's requests along to your site and applies rate limits. Sign-in happens on your own WordPress site, and your password is never shared with the AI app.
+The tools run, and every permission is checked, **on your own WordPress site**. Your AI app connects through the **miniOrange Gateway** (`gateway.miniorange.ai`). The gateway passes the AI's requests along to your site and applies rate limits. Connecting directly to your site's own address is no longer supported. Sign-in happens on your own WordPress site, sign-in codes are sent only to the gateway, and your password is never shared with the AI app.
 
 ## Reporting a security issue
 

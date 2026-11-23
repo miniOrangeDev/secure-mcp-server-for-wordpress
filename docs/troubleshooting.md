@@ -111,6 +111,18 @@ The plugin clears page caches automatically after every change, for the most com
 - **Site-wide changes** (like a menu edit) can take **up to a minute** to show, because the full cache is cleared at most once a minute to keep busy sites fast.
 - If you use a cache the plugin doesn't recognise, clear it from that cache's settings, or ask the AI: *"Clear the site caches."*
 
+## An AI app that was connected straight to my site stopped working
+
+From version 1.5.9, AI apps connect through the **miniOrange Gateway** only. An app that was connected directly to your site's own address (`/wp-json/mosmcp/v1/mcp`) no longer works.
+
+Remove that connector in your AI app and add it again with the gateway address:
+
+```text
+https://gateway.miniorange.ai/v2/mcp
+```
+
+In WordPress, **Secure MCP Server → Connect to AI** has the steps for each app.
+
 ## The AI was disconnected
 
 Remove the connector in your AI app and add it again to sign in fresh. If you **revoked** access in **AI Agents**, this is expected. Just connect again when you're ready.
