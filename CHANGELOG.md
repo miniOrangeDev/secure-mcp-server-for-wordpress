@@ -8,6 +8,22 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.10
+
+**Highlights: media checks (2 new tools), bulk media cleanup for Pro (4 new tools), and fixes for Sign out and theme drafts on some hosts**
+
+### Added
+- **Media checks (2 tools):** find images with missing or broken thumbnail sizes, and list images that have no alt text. They only read, so nothing is changed.
+- **Media library cleanup (Pro, 4 tools):** find media used nowhere on the site, checking content, featured images, custom fields and page builders, and delete it once you confirm; scale down oversized images in bulk, keeping each original so it can be restored; and set alt text on up to 50 images at once.
+
+### Improved
+- Site connections through the miniOrange MCP Gateway.
+
+### Fixed
+- Sign out and other admin actions no longer fail with a server error on hosts whose firewall rejects requests with no content.
+- Theme drafts now work on managed hosts that don't let AI requests write PHP files.
+- Minor bug fixes.
+
 ## 1.5.9
 
 **Highlights: AI apps now connect through the miniOrange MCP Gateway only, with tighter sign-in and theme file checks**

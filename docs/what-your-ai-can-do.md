@@ -1,10 +1,10 @@
 # What your AI can do
 
-The plugin gives your AI assistant **487 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
+The plugin gives your AI assistant **489 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
 
-Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site. The **Pro** plan adds [250 more tools for 39 plugin integrations](#pro-plan-250-more-tools-for-39-plugin-integrations).
+Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site. The **Pro** plan adds [254 more tools for 39 plugin integrations and bulk media](#pro-plan-254-more-tools).
 
-**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Pro plan](#pro-plan-250-more-tools-for-39-plugin-integrations) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
+**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Pro plan](#pro-plan-254-more-tools) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
 
 ---
 
@@ -13,7 +13,7 @@ Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin
 | Area | Tools | What the AI can do |
 |---|---:|---|
 | **Posts and pages** | 56 | Write, edit, publish, schedule, duplicate, set page templates and featured images, trash and restore |
-| **Categories, tags and media** | 45 | Manage categories and tags, upload images from a link or file, update alt text and captions; crop, rotate, flip and resize images while keeping the original; get an upload link to add a file yourself |
+| **Categories, tags and media** | 47 | Manage categories and tags, upload images from a link or file, update alt text and captions; crop, rotate, flip and resize images while keeping the original; get an upload link to add a file yourself; find images with missing or broken thumbnail sizes, and list images that have no alt text (read-only) |
 | **Block editor** | 12 | Change *one* heading, paragraph or button and leave every other block exactly as it was; insert, move, duplicate and delete blocks and patterns; see where a synced pattern is used and turn it into ordinary blocks |
 | **Find and replace** | 6 | Change one sentence in a post, custom field or setting without rewriting the whole thing |
 | **Revisions** | 9 | List, compare and restore earlier versions (needs permission to edit the post) |
@@ -70,9 +70,9 @@ Pages made with the normal WordPress block editor use the **Block editor** tools
 
 **25 tools** for **Advanced Custom Fields**: read and update any field value, work with repeaters, flexible content, relationships and options pages, create field groups and fields, and search posts by field value.
 
-## Pro plan: 250 more tools for 39 plugin integrations
+## Pro plan: 254 more tools
 
-The **Pro** and **Business** plans add **250 tools** on top of the 487 above, so the AI can work with many more plugins. Like the other plugin tools, each set **only appears when that plugin is installed and active** on your site, at a version the tools were written for.
+The **Pro** and **Business** plans add **254 tools** on top of the 489 above, so the AI can work with many more plugins. Like the other plugin tools, each plugin's set **only appears when that plugin is installed and active** on your site, at a version the tools were written for. The four media library tools need no plugin.
 
 | Area | Plugins | Tools |
 |---|---|---:|
@@ -87,12 +87,13 @@ The **Pro** and **Business** plans add **250 tools** on top of the 487 above, so
 | **Events** | The Events Calendar (5), Event Tickets (4), Events Calendar Pro (1) | 10 |
 | **Real estate** | Houzez (8) | 8 |
 | **Speed** | WP Rocket (4) | 4 |
+| **Media library cleanup** | Built in, no plugin needed: find media used nowhere on the site, delete it, resize large images in bulk and set alt text in bulk (4) | 4 |
 
-With the Pro plan that's **737 tools** in all. Human approval and data rules are added by the Business plan. [See plans](../README.md#plans).
+With the Pro plan that's **743 tools** in all. Human approval and data rules are added by the Business plan. [See plans](../README.md#plans).
 
 ## Other plugins: Governed REST API access
 
-Four of the 487 tools let the AI use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed: list routes, describe a route, read a route and call a route.
+Four of the 489 tools let the AI use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed: list routes, describe a route, read a route and call a route.
 
 You stay in control:
 
@@ -114,6 +115,8 @@ Copy any of these into your AI app.
 - *"Replace 'Call us on 555-0100' with 'Call us on 555-0199' everywhere on the site."*
 - *"Draft a post about our new service and send me a preview link I can share with my team."*
 - *"Crop this photo to 16:9, keeping the left side, and save it as a new image."*
+- *"Which images have no alt text? List them for me."*
+- *"Find images in the media library that are used nowhere on the site."* (Pro)
 
 **Store**
 - *"Find all products under $50 and put them on a 20% sale until Sunday."*

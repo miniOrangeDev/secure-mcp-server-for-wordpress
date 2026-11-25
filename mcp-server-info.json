@@ -7,8 +7,8 @@
     "website": "https://www.miniorange.com/",
     "supportEmail": "info@xecurify.com"
   },
-  "version": "1.5.9",
-  "lastUpdated": "2026-11-20",
+  "version": "1.5.10",
+  "lastUpdated": "2026-11-25",
   "license": "MIT",
   "summary": "A WordPress plugin that turns a WordPress site into a secure MCP (Model Context Protocol) server, so AI assistants such as Claude, ChatGPT, Cursor and Gemini can read and update the site within role-based permissions set by the site owner.",
   "description": "Secure MCP Server lets AI assistants work on a WordPress site through chat: writing and scheduling posts, editing pages block by block, managing WooCommerce products and orders, updating SEO metadata, editing Elementor, Kadence and Divi layouts, handling form entries, managing menus, widgets, users and settings, and editing themes safely. Unlike plugins that give AI full admin access, every action runs as the WordPress user who approved the connection, is limited to the tools that user's role has been granted in the Agent Registry, is checked against WordPress capabilities, and is recorded in an audit log. No coding is needed to set it up.",
@@ -199,11 +199,11 @@
   ],
 
   "tools": {
-    "total": 487,
+    "total": 489,
     "notes": "Tools for third-party plugins are only offered when that plugin is active on the site. Each tool declares MCP annotations (read-only, destructive, idempotent) and full JSON input/output schemas. Site owners choose which tools each WordPress role may use.",
     "groups": [
       { "group": "Posts & Pages", "count": 56, "summary": "Create, publish, schedule, duplicate, set templates and featured images, trash and restore." },
-      { "group": "Categories, Tags & Media", "count": 45, "summary": "Manage taxonomies, upload media from a URL or file, update alt text and captions, crop, rotate, flip and resize images, and create upload links." },
+      { "group": "Categories, Tags & Media", "count": 47, "summary": "Manage taxonomies, upload media from a URL or file, update alt text and captions, crop, rotate, flip and resize images, create upload links, and find images with missing thumbnail sizes or no alt text." },
       { "group": "Revisions", "count": 9, "summary": "List, compare and restore revisions and autosaves." },
       { "group": "Comments", "count": 21, "summary": "Moderate, reply, search, mark spam and view counts." },
       { "group": "Custom Post Types & Fields", "count": 19, "summary": "Discover any custom post type and edit its items, terms and fields." },
@@ -227,8 +227,8 @@
     ],
     "pro": {
       "plan": "pro",
-      "total": 250,
-      "totalWithFree": 737,
+      "total": 254,
+      "totalWithFree": 743,
       "integrations": 39,
       "notes": "Included in the Pro and Business plans, in addition to the free tools. Each set of tools is only offered when its plugin is active at a supported version.",
       "groups": [
@@ -242,7 +242,8 @@
         { "group": "Email and marketing", "count": 11, "plugins": "FluentCRM (7), MailPoet (4)", "summary": "Contacts, lists and campaigns." },
         { "group": "Events", "count": 10, "plugins": "The Events Calendar (5), Event Tickets (4), Events Calendar Pro (1)", "summary": "Events and tickets." },
         { "group": "Real estate", "count": 8, "plugins": "Houzez (8)", "summary": "Find, create, update and duplicate property listings." },
-        { "group": "Speed", "count": 4, "plugins": "WP Rocket (4)", "summary": "Cache and performance settings." }
+        { "group": "Speed", "count": 4, "plugins": "WP Rocket (4)", "summary": "Cache and performance settings." },
+        { "group": "Media library cleanup", "count": 4, "plugins": "Built in, no plugin needed", "summary": "Find media used nowhere on the site and delete it, resize large images in bulk, and set alt text in bulk." }
       ]
     },
     "governedRestApiAccess": {
@@ -295,11 +296,11 @@
     {
       "name": "Free",
       "where": "https://wordpress.org/plugins/miniorange-secure-mcp-server/",
-      "includes": ["All 487 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
+      "includes": ["All 489 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
     },
     {
       "name": "Pro",
-      "includes": ["Everything in Free", "250 more tools for 39 plugin integrations (737 tools in all), including Divi 4 and Divi 5, Elementor Pro, Bricks, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more"]
+      "includes": ["Everything in Free", "254 more tools for 39 plugin integrations and bulk media (743 tools in all), including Divi 4 and Divi 5, Elementor Pro, Bricks, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more"]
     },
     {
       "name": "Business",
