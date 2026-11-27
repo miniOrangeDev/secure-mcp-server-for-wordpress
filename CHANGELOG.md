@@ -8,6 +8,27 @@ The latest version is always on [WordPress.org](https://wordpress.org/plugins/mi
 
 ---
 
+## 1.5.11
+
+**Highlights: Wordfence and UpdraftPlus (29 new tools), five more languages, and a tidier admin**
+
+### Added
+- **Wordfence Security (17 tools):** check Wordfence's status and firewall summary, start a scan and follow it, list scan issues and mark one resolved, and review live traffic, failed logins, attack statistics and two-factor coverage. Block or unblock an IP address, see lockouts and unlock an IP, and view the allowlist. Only offered when Wordfence is active.
+- **UpdraftPlus Backups (12 tools):** see backup history and where each backup was set to be sent, start or cancel a backup (including a labelled backup before a risky change), follow progress and logs, delete a backup, and view or adjust the schedule. Only offered when UpdraftPlus is active.
+- **Russian, Chinese (Simplified) and German:** the admin, the approval screen and the deactivation form follow each person's WordPress language. What the AI sees stays in English.
+- **Windsurf and Codex in the Connect page:** both now have their own tiles and steps.
+- **Helpful links card:** documentation, setup guides, supported abilities, a demo request and support, in one place.
+
+### Improved
+- The role grid in **AI Agents** moves each ability's description into an info tooltip that also shows the capability it needs, and marks abilities that delete or are destructive with an amber warning and a legend entry.
+- Filters and REST credential forms use a new dropdown with keyboard support.
+- **Connect to AI** has cards for each app, official Cursor, Codex and Perplexity logos, and an "Any other AI" card.
+- The connection test result on **AI Agents** can be dismissed.
+- The upgrade button now reads "Upgrade". The "What's new" panel and page eyebrows are gone.
+
+### Security
+- Feedback sent when you deactivate the plugin no longer includes your agents, connected apps or role permissions. It says how long the plugin has been active instead.
+
 ## 1.5.10
 
 **Highlights: media checks (2 new tools), bulk media cleanup for Pro (4 new tools), and fixes for Sign out and theme drafts on some hosts**

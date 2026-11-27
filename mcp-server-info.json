@@ -7,8 +7,8 @@
     "website": "https://www.miniorange.com/",
     "supportEmail": "info@xecurify.com"
   },
-  "version": "1.5.10",
-  "lastUpdated": "2026-11-25",
+  "version": "1.5.11",
+  "lastUpdated": "2026-11-27",
   "license": "MIT",
   "summary": "A WordPress plugin that turns a WordPress site into a secure MCP (Model Context Protocol) server, so AI assistants such as Claude, ChatGPT, Cursor and Gemini can read and update the site within role-based permissions set by the site owner.",
   "description": "Secure MCP Server lets AI assistants work on a WordPress site through chat: writing and scheduling posts, editing pages block by block, managing WooCommerce products and orders, updating SEO metadata, editing Elementor, Kadence and Divi layouts, handling form entries, managing menus, widgets, users and settings, and editing themes safely. Unlike plugins that give AI full admin access, every action runs as the WordPress user who approved the connection, is limited to the tools that user's role has been granted in the Agent Registry, is checked against WordPress capabilities, and is recorded in an audit log. No coding is needed to set it up.",
@@ -199,7 +199,7 @@
   ],
 
   "tools": {
-    "total": 489,
+    "total": 518,
     "notes": "Tools for third-party plugins are only offered when that plugin is active on the site. Each tool declares MCP annotations (read-only, destructive, idempotent) and full JSON input/output schemas. Site owners choose which tools each WordPress role may use.",
     "groups": [
       { "group": "Posts & Pages", "count": 56, "summary": "Create, publish, schedule, duplicate, set templates and featured images, trash and restore." },
@@ -223,12 +223,14 @@
       { "group": "Yoast SEO & Rank Math", "count": 17, "requires": "Yoast SEO or Rank Math", "summary": "SEO titles, meta descriptions, focus keywords, canonicals, robots, schema, Open Graph and X cards, plus read-only SEO reports that need only permission to read the post." },
       { "group": "Forms & Leads", "count": 54, "requires": "Contact Form 7 (Flamingo), WPForms, Gravity Forms or Fluent Forms", "summary": "Forms, fields and entries, with CSV export; Fluent Forms notifications and confirmations." },
       { "group": "Elementor", "count": 12, "requires": "Elementor", "summary": "Read, edit, style, move and duplicate Elementor elements, make exact edits inside large HTML and text widgets, and preview the result." },
-      { "group": "Kadence Blocks", "count": 18, "requires": "Kadence Blocks", "summary": "Build Kadence pages; insert rows, columns, headings, buttons and images; update text and styling." }
+      { "group": "Kadence Blocks", "count": 18, "requires": "Kadence Blocks", "summary": "Build Kadence pages; insert rows, columns, headings, buttons and images; update text and styling." },
+      { "group": "Wordfence Security", "count": 17, "requires": "Wordfence", "summary": "Check status and the firewall, start and follow scans, review and resolve scan issues, see live traffic, failed logins, attack stats and two-factor coverage, and block, unblock or unlock IP addresses." },
+      { "group": "UpdraftPlus Backups", "count": 12, "requires": "UpdraftPlus", "summary": "See backup history and where backups were sent, start or cancel backups (including a labelled backup before a risky change), follow progress and logs, delete a backup, and adjust the schedule." }
     ],
     "pro": {
       "plan": "pro",
       "total": 254,
-      "totalWithFree": 743,
+      "totalWithFree": 772,
       "integrations": 39,
       "notes": "Included in the Pro and Business plans, in addition to the free tools. Each set of tools is only offered when its plugin is active at a supported version.",
       "groups": [
@@ -296,11 +298,11 @@
     {
       "name": "Free",
       "where": "https://wordpress.org/plugins/miniorange-secure-mcp-server/",
-      "includes": ["All 489 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
+      "includes": ["All 518 tools", "Agent Registry with role-based permissions", "OAuth 2.1 sign-in", "Audit log and dashboard", "Governed REST API access", "Troubleshooting tools"]
     },
     {
       "name": "Pro",
-      "includes": ["Everything in Free", "254 more tools for 39 plugin integrations and bulk media (743 tools in all), including Divi 4 and Divi 5, Elementor Pro, Bricks, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more"]
+      "includes": ["Everything in Free", "254 more tools for 39 plugin integrations and bulk media (772 tools in all), including Divi 4 and Divi 5, Elementor Pro, Bricks, WooCommerce Subscriptions, LearnDash, Tutor LMS, WPML and more"]
     },
     {
       "name": "Business",

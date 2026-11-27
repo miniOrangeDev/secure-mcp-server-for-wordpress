@@ -1,10 +1,10 @@
 # What your AI can do
 
-The plugin gives your AI assistant **489 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
+The plugin gives your AI assistant **518 tools**: actions it can take on your WordPress site. You choose which ones each user role can use, and you can switch any of them off.
 
 Tools for other plugins (like WooCommerce or Yoast) **only appear if that plugin is installed and active** on your site. The **Pro** plan adds [254 more tools for 39 plugin integrations and bulk media](#pro-plan-254-more-tools).
 
-**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Pro plan](#pro-plan-254-more-tools) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
+**Jump to:** [Content](#your-content) · [Site management](#site-management) · [Online store](#online-store-woocommerce) · [SEO](#seo-yoast-seo-and-rank-math) · [Page builders](#page-builders) · [Forms](#forms-and-leads) · [Custom fields](#custom-fields-acf) · [Security and backups](#security-and-backups-wordfence-and-updraftplus) · [Pro plan](#pro-plan-254-more-tools) · [Other plugins](#other-plugins-governed-rest-api-access) · [Example prompts](#example-prompts)
 
 ---
 
@@ -70,9 +70,17 @@ Pages made with the normal WordPress block editor use the **Block editor** tools
 
 **25 tools** for **Advanced Custom Fields**: read and update any field value, work with repeaters, flexible content, relationships and options pages, create field groups and fields, and search posts by field value.
 
+## Security and backups (Wordfence and UpdraftPlus)
+
+These tools only appear when the plugin is installed and active.
+
+**Wordfence Security: 17 tools.** Check Wordfence's status and firewall summary, start a scan and follow it, list scan issues and mark one resolved, and review live traffic, failed logins, attack statistics and which users have two-factor sign-in. Block or unblock an IP address, see lockouts and unlock an IP, and view the allowlist.
+
+**UpdraftPlus Backups: 12 tools.** See backup history and where each backup was set to be sent, start or cancel a backup (including a labelled backup before a risky change), follow progress and logs, delete a backup, and view or adjust the schedule.
+
 ## Pro plan: 254 more tools
 
-The **Pro** and **Business** plans add **254 tools** on top of the 489 above, so the AI can work with many more plugins. Like the other plugin tools, each plugin's set **only appears when that plugin is installed and active** on your site, at a version the tools were written for. The four media library tools need no plugin.
+The **Pro** and **Business** plans add **254 tools** on top of the 518 above, so the AI can work with many more plugins. Like the other plugin tools, each plugin's set **only appears when that plugin is installed and active** on your site, at a version the tools were written for. The four media library tools need no plugin.
 
 | Area | Plugins | Tools |
 |---|---|---:|
@@ -89,11 +97,11 @@ The **Pro** and **Business** plans add **254 tools** on top of the 489 above, so
 | **Speed** | WP Rocket (4) | 4 |
 | **Media library cleanup** | Built in, no plugin needed: find media used nowhere on the site, delete it, resize large images in bulk and set alt text in bulk (4) | 4 |
 
-With the Pro plan that's **743 tools** in all. Human approval and data rules are added by the Business plan. [See plans](../README.md#plans).
+With the Pro plan that's **772 tools** in all. Human approval and data rules are added by the Business plan. [See plans](../README.md#plans).
 
 ## Other plugins: Governed REST API access
 
-Four of the 489 tools let the AI use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed: list routes, describe a route, read a route and call a route.
+Four of the 518 tools let the AI use the **REST API** of almost any plugin on your site, such as a booking, membership or LMS plugin, with no plugin update needed: list routes, describe a route, read a route and call a route.
 
 You stay in control:
 
@@ -132,6 +140,8 @@ Copy any of these into your AI app.
 - *"Add our new Pricing page to the main menu, right after About."*
 - *"Why aren't my scheduled posts publishing? Check cron and the error log."*
 - *"Which plugins have updates available?"*
+- *"Start a labelled UpdraftPlus backup before I update the theme."*
+- *"Run a Wordfence scan and tell me about any issues."*
 - *"Change the footer text in my theme, preview it, then publish."*
 - *"Set our new logo as the site logo and the site icon, and let me preview it before it goes live."*
 - *"Add some custom CSS to make the header buttons rounded."*

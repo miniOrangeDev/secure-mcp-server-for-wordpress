@@ -87,6 +87,8 @@ The **Dashboard** shows active agents, number of actions, success rate and respo
 
 ## Where does my data go?
 
+**If you send feedback when you deactivate the plugin,** it no longer includes your agents, connected apps or role permissions. It says how long the plugin has been active on your site.
+
 The tools run, and every permission is checked, **on your own WordPress site**. Your AI app connects through the **miniOrange Gateway** (`gateway.miniorange.ai`). The gateway passes the AI's requests along to your site and applies rate limits. Connecting directly to your site's own address is no longer supported. Sign-in happens on your own WordPress site, sign-in codes are sent only to the gateway, and your password is never shared with the AI app.
 
 ## Reporting a security issue

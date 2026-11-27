@@ -12,13 +12,13 @@ MCP (Model Context Protocol) is an open standard that lets AI assistants use too
 No. You install the plugin, tick which tools to allow, and connect your AI app by clicking through a few screens. See [Getting started](getting-started.md).
 
 ### Is it free?
-Yes. The plugin is free on [WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) with all 489 tools, role permissions, secure sign-in and the activity log. The paid **Pro** plan adds 254 more tools for 39 plugin integrations and bulk media, including Divi, and the **Business** plan adds human approval and data-masking rules on top. [See pricing](https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress#pricing).
+Yes. The plugin is free on [WordPress.org](https://wordpress.org/plugins/miniorange-secure-mcp-server/) with all 518 tools, role permissions, secure sign-in and the activity log. The paid **Pro** plan adds 254 more tools for 39 plugin integrations and bulk media, including Divi, and the **Business** plan adds human approval and data-masking rules on top. [See pricing](https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress#pricing).
 
 ### Which AI apps work with it?
 Claude, ChatGPT, Gemini, Grok, Cursor, Codex, Windsurf, Antigravity, Perplexity, Gemini CLI, VS Code, Claude Code and any other app that supports remote MCP servers. You can connect several at once. Each app has its own setup guide; see [Getting started](getting-started.md#step-3-connect-your-ai-app).
 
 ### How many tools are there?
-489 in the free plan, covering WordPress content, the block editor, menus, widgets, users, settings, theme editing and maintenance, plus WooCommerce, Yoast SEO, Rank Math, Advanced Custom Fields, Elementor, Kadence, Contact Form 7, WPForms, Gravity Forms and Fluent Forms, and four tools for Governed REST API access. The Pro plan adds 254 more for 39 plugin integrations, 743 in all. Tools for another plugin only appear when that plugin is active. See [What your AI can do](what-your-ai-can-do.md).
+518 in the free plan, covering WordPress content, the block editor, menus, widgets, users, settings, theme editing and maintenance, plus WooCommerce, Yoast SEO, Rank Math, Advanced Custom Fields, Elementor, Kadence, Contact Form 7, WPForms, Gravity Forms and Fluent Forms, Wordfence and UpdraftPlus, and four tools for Governed REST API access. The Pro plan adds 254 more for 39 plugin integrations, 772 in all. Tools for another plugin only appear when that plugin is active. See [What your AI can do](what-your-ai-can-do.md).
 
 ## Safety
 
@@ -76,7 +76,7 @@ Yes. With **Governed REST API access**, the AI can use the REST API of almost an
 Yes. **Network Admin → Secure MCP Server** lists every site on the network with a link to its settings. Plugin tools are offered only to people who can manage plugins for the network, and the AI can't look up users who don't belong to the site it's working on.
 
 ### Is the plugin available in my language?
-The admin, the approval screen and the deactivation form are available in Arabic (laid out right to left), Italian and Japanese, and follow each person's WordPress language. What the AI sees stays in English.
+The admin, the approval screen and the deactivation form are available in Arabic (laid out right to left), Chinese (Simplified), German, Italian, Japanese and Russian, and follow each person's WordPress language. What the AI sees stays in English.
 
 ### Can I connect more than one AI app?
 Yes, as many as you like. Each has its own permissions and its own entries in the log.
